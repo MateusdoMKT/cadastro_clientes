@@ -1,0 +1,262 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: linear-gradient(to bottom, rgb(255, 255, 255), hsl(22, 100%, 88%));
+  font-family: Verdana;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 20px;
+}
+
+.my-navbar {
+  background-color: #1E90FF;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+.nav-link:hover {
+  color: orange !important;
+}
+.navbar-brand {
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.img-custom {
+  max-width: 200px;
+  height: auto;
+}
+
+.container {
+  margin-bottom: 20px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #1E90FF, #3856ff);
+  padding: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 1%;
+}
+
+.header-section {
+  background: linear-gradient(to bottom, orange, hsl(14, 100%, 64%));
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Candara;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.button {
+  border-color: #ffffff;
+  width: 150px;     /* Altere para o valor que deseja para a largura do botão */
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(29, 100%, 50%);
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+
+fieldset{
+background: linear-gradient(to bottom,  #95caff, hsl(216, 97%, 65%));
+border-radius: 10px;
+margin: 10px;
+padding: 15px;
+}
+
+input[type='checkbox'] {
+  transform: scale(2.0);
+}
+
+.button:hover {
+  color: rgb(0, 0, 0);
+}
+
+.button:hover:before {
+  width: 100%;
+}
+
+#name {
+  width: 40ch;
+}
+
+#cpf_number {
+  width: 40ch;
+}
+
+#rg_number {
+  width: 40ch;
+}
+
+#cnpj_number {
+  width: 40ch;
+}
+
+#ie {
+  width: 40ch;
+}
+  
+#cep {
+  width: 20ch;
+}
+
+#street {
+  width: 40ch;
+}
+
+#number {
+  width: 15ch;
+}
+
+#complement {
+  width: 40ch;
+}
+
+#district {
+  width: 40ch;
+}
+
+#city {
+  width: 40ch;
+}
+
+#cep2 {
+  width: 20ch;
+}
+
+#street2 {
+  width: 40ch;
+}
+
+#number2 {
+  width: 15ch;
+}
+
+#complement2 {
+  width: 40ch;
+}
+
+#district2 {
+  width: 40ch;
+}
+
+#city2 {
+  width: 40ch;
+}
+
+#phone {
+  width: 18ch;
+}
+
+#mobile {
+  width: 18ch;
+}
+
+#email {
+	width: 40ch;
+}
+
+#fornecedor {
+  width: 40ch;
+  height: 6em; 
+}
+
+#vendedor {
+  width: 18ch;
+}
+
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+    font-size: 20px;
+    background-color: orange;
+  }
+  .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+  }
+  .navbar-nav .nav-item {
+      margin: 10px 0;
+  }
+  
+  .container {
+    margin-top: 20px;
+    min-height: 100vh; 
+    box-shadow: none;
+    border-radius: 10px;
+    max-width: 100%;
+    background-color: #1E90FF;
+  }
+  
+  .form-group {
+    margin-bottom: 2rem;  
+  }
+
+  .form-control {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;  
+  }
+
+  .button {
+    padding: .5rem 1rem;
+    font-size: .875rem;
+  }
+}
+
+.footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3856ff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
